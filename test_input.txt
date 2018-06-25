@@ -1,0 +1,81 @@
+int m_i;
+SomeType * m_some_data_member = NULL;
+SomeOtherType * m_some_other_data_member;
+YetAnotherType m_yet_another_data_member = 7609;
+static const SomeType * s_some_static_constant = 1234567890;
+static SomeType * s_some_static_data_member;
+std::vector<unsigned int> m_vector;
+
+@()
+{
+    // Hi Bill.
+}
+
+@(int i)
+{
+    // Two
+}
+
+@(int i, float f)
+{
+    // Three
+}
+
+copy:
+
+~@()
+{
+}
+
+property: int m_the_thing theThing
+
+property: int * m_person person
+
+void anotherMethod(int x)
+{
+    m_i = x;
+}
+
+int doSomething(SomeType some_name = 1234, YetAnotherType another_name = "Wow")
+{
+}
+
+const @ & doSomethingCool(std::deque<int> * var,
+                          bool is_really_really_cool = true)
+{
+    return 1234567890;
+}
+
+
+int doSomething(double x) const
+{
+    // Code to do something
+    int r = 0;
+
+    for (int i = 0; i < 10; ++i)
+    {
+        r += i;
+    }
+
+    return r;
+}
+
+static int contactSpaceAlien(Whoa x) const
+{
+    char * c_ptr = "This is a test { \" { ";
+    char cc_ptr = "This is a test too ' \' ";
+    char x = 'A';
+    char y = '{';
+    return -1;
+}
+
+virtual int haveFun(unsigned int xyz)
+{
+    return 0;
+}
+
+virtual int zap(Target x789) const
+{
+    char z = '}';
+    return 0;
+}
